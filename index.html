@@ -1,0 +1,210 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aaayusha's site</title>
+    <link href="output.css" rel="stylesheet">
+    <style>
+        body {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="navcontainer text-xl  text-white fixed top-0 left-0 w-full"><!-- whole cont. -->
+
+        <div class="nav px-10 py-5 flex justify-between  bg-gray-600 border"><!-- nav cont. -->
+
+            <div class="left ">Aayusha Chaudhary</div>
+
+            <div class="ham-nav  flex flex-col justify-between items-end text-right  ">
+                <!-- cont. for ham & (about, proj., cont.) -->
+                <div class="right-ham md:hidden hover:cursor-pointer">
+                    <svg class="w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6"><path stroke-linecap="round" stroke-linejoin="round" d="M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5" /></svg>
+                </div>
+
+                <div class="right-navitems hidden md:flex justify-evenly gap-6 mt-6 md:mt-0 items-center text-right">
+                    <div class="hover:cursor-pointer mb-2 md:mb-0">
+                        <a href="#about">About</a>
+                    </div>
+                    <div class="hover:cursor-pointer mb-2 md:mb-0">
+                        <a href="#project">Projects</a>
+                    </div>
+                    <div class="hover:cursor-pointer">
+                        <a href="#contact">Contact</a>
+                    </div>
+                    <div class="hover:cursor-pointer">
+                        <a href="https://drive.google.com/file/d/1RnPFzAqDehY0tgJrAJG_yTsQstBqOlCD/view?usp=sharing" target="_blank">Resume</a>
+                    </div>
+                </div>
+            </div>
+
+        </div><!-- end nav -->
+
+    </div>
+
+    <!-- <div class="bg-gray-600 flex justify-between h-20 py-10 items-center text-white text-lg fixed top-0 left-0 right-0 w-full">
+
+    <div>
+        <h1 class="pl-5">Aayusha Chaudhary</h1>
+    </div>
+
+    <nav class="flex">
+        <div class="cursor-pointer md:hidden flex items-center justify-center pr-5" id="hammenu">
+            <svg class="w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6"><path stroke-linecap="round" stroke-linejoin="round" d="M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5" /></svg>
+        </div>
+        <ul class="gap-8 hidden md:flex md:justify-evenly md:items-center" id="menu">
+            <li class="pr-5 hover:scale-105">
+                <a href="#about">
+                    About
+                </a>  
+            </li>
+            <li class="pr-5 hover:scale-105">
+                <a href="#project">
+                    Projects
+                </a>
+               
+            </li>
+            <li class="pr-5 hover:scale-105">
+                <a href="#contact">
+                    Contact
+                </a>
+                
+            </li>
+        </ul>
+    </nav>
+
+  </div>header closing -->
+
+
+    <div class="bg-gray-100 flex flex-col md:flex-row justify-center items-center  mt-16 py-16" id="about">
+        <!-- about me -->
+
+        <div class=" flex justify-center items-center">
+            <img class="rounded-full object-cover w-3/4" src="img/aayu.jpg">
+        </div>
+
+        <!-- <div class="border">
+        <div class="text-gray-800 text-xl  pl-10 pr-10 ">
+            <p class="font-bold">"Hello, I'm Aayusha Chaudhary,</p>
+                <p> a skilled Bachelor of Computer Application student specializing in web development. With expertise in HTML, CSS, JavaScript and frameworks like Tailwind CSS and Bootstrap, I create responsive and dynamic websites.<br><br> Additionally, I have a deep interest in graphic design, utilizing tools like Adobe Illustrator to bring visual appeal to my projects.
+                    <br><br> <b>Welcome to my portfolio site,</b> here you can explore my diverse skill set and passion for combining aesthetics with technology."</p>  
+                
+        </div> -->
+        <!-- </div> -->
+
+        <div class="pb-2 px-10">
+            <div class="font-bold text-xl text-center md:text-left mt-5">Hello, I'm Aayusha Chaudhary,</div>
+            <div class="my-5">a skilled Bachelor of Computer Application student specializing in web development. With
+                expertise in HTML, CSS, JavaScript and frameworks like Tailwind CSS and Bootstrap, I create responsive
+                and dynamic websites.</div>
+            <div>Additionally, I have a deep interest in graphic design, utilizing tools like Adobe Illustrator to bring
+                visual appeal to my projects.</div>
+            <div>Welcome to my portfolio site, here you can explore my diverse skill set and passion for combining
+                aesthetics with technology."</div>
+        </div>
+
+    </div><!-- about me end -->
+
+
+    <div class="bg-slate-500" id="project"><!-- projects opening -->
+
+        <div class="text-center text-white font-bold  pt-20">
+            <h1 class="text-2xl">These are some of my Projects</h1>
+        </div>
+
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-5 pt-20 justify-center p-5">
+            <!-- cards -->
+            <div style="height: 400px" class="bg-white shadow  rounded-lg overflow-hidden">
+                <a href="https://aayusha-cafe.netlify.app/">
+                    <img src="img/y.PNG" alt="yummy" style="height: 320px;" class="object-cover">
+                    <div style="height: 80px;" class="text-white bg-gray-600 text-center pt-7">
+                        <h2>Yummy Foods</h2>
+                    </div>
+                </a>
+
+            </div>
+
+            <div style="height: 400px" class="bg-white shadow  rounded-lg overflow-hidden">
+                <a href="https://github.com/AayushaChaudhary/crm">
+                    <img src="img/crm.png" alt="crm" style="height: 320px;" class="object-cover">
+                    <div style="height: 80px;" class="text-white bg-gray-600 text-center pt-7">
+                        <h2>Customer Relationship Management</h2>
+                    </div>
+                </a>
+
+            </div>
+
+            <div style="height: 400px" class="bg-white shadow  rounded-lg overflow-hidden">
+                <a href="https://github.com/AayushaChaudhary/Bookstore">
+                    <img src="img/ab.PNG" alt="bookstore" style="height: 320px;" class="object-cover">
+                    <div style="height: 80px;" class="text-white bg-gray-600 text-center pt-7">
+                        <h2>Bookstore</h2>
+                    </div>
+                </a>
+
+            </div>
+        </div>
+    </div><!-- projects closing -->
+
+
+    <div class="bg-white   id=" contact"><!-- contact opening -->
+
+        <div class="text-center text-3xl font-bold pt-20">
+            <h1>Contacts</h1>
+        </div>
+
+        <div class="pb-20">
+            <div class="flex justify-center gap-8 pt-10 ">
+                <a href="https://github.com/AayushaChaudhary">
+                    <div class="flex justify-center gap-2  ">
+                        <svg class="w-6" xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 496 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                            <path
+                                d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z" />
+                        </svg>
+                        <span class="font-bold">GitHub</span>
+
+                    </div>
+                </a>
+
+                <a href="mailto:aayushachaudhari890@gmail.com">
+                    <div class="flex justify-center gap-2">
+                        <svg class="w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                            stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
+                        </svg>
+                        <span class="font-bold">Send a Mail</span>
+                    </div>
+                </a>
+                <a href="tel:+9869170181">
+                    <div class="flex justify-center gap-2">
+                        <svg class="w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                            stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M14.25 9.75v-4.5m0 4.5h4.5m-4.5 0l6-6m-3 18c-8.284 0-15-6.716-15-15V4.5A2.25 2.25 0 014.5 2.25h1.372c.516 0 .966.351 1.091.852l1.106 4.423c.11.44-.054.902-.417 1.173l-1.293.97a1.062 1.062 0 00-.38 1.21 12.035 12.035 0 007.143 7.143c.441.162.928-.004 1.21-.38l.97-1.293a1.125 1.125 0 011.173-.417l4.423 1.106c.5.125.852.575.852 1.091V19.5a2.25 2.25 0 01-2.25 2.25h-2.25z" />
+                        </svg>
+                        <span class="font-bold">Call Me</span>
+                    </div>
+                </a>
+
+            </div>
+        </div>
+
+    </div><!-- contact closing -->
+    <div class="bg-gray-600" id="contact">
+        <div class="text-white text-center font-bold py-10">
+            <button class="cursor-pointer">
+               <a href="https://www.linkedin.com/in/aayusha-chaudhary/" target="_blank">Hire Me!</a> 
+            </button>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
